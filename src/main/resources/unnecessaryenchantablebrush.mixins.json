@@ -3,6 +3,7 @@
   "package": "kiattipoomr.unnecessaryenchantablebrush.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
+	"BrushItemMixin"
   ],
   "injectors": {
 	"defaultRequire": 1
