@@ -3,12 +3,13 @@
   "package": "kiattipoomr.unnecessaryenchantablebrush.mixin",
   "compatibilityLevel": "JAVA_21",
   "mixins": [
-	"BrushItemMixin"
+    "BrushableBlockEntityMixin",
+    "BrushItemMixin"
   ],
   "injectors": {
-	"defaultRequire": 1
+    "defaultRequire": 1
   },
   "overwrites": {
-	"requireAnnotations": true
+    "requireAnnotations": true
   }
 }
